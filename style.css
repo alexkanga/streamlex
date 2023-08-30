@@ -21,6 +21,10 @@ body {
   color: #fff;
 }
 
+.color-dark {
+  #1b0402;
+}
+
 /* SECTION HEADER START */
 
 header {
@@ -303,4 +307,114 @@ footer a {
         margin-bottom: 5rem;
         padding: 0 5rem;
         background-repeat: no-repeat;
+}
+
+.scroll {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background: #f13223;;
+    border-radius: 50px;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 50px;
+    text-align: center;
+    
+  }
+  .scroll i {
+    color: #FFF;
+  }
+
+  .title_and_buttons_more_div{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* FORM SIGNUP */
+
+.form{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.logo_signup{
+  margin: 0  auto;
+ display: flex;
+ justify-content: center;
+}
+
+form.signup{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* margin-top: 5rem; */
+    margin-top: 2rem;
+  gap: 2rem;
+  background-color: #FFF;
+  color
+}
+
+form.signup h2{
+  color: #1b0402;
+}
+
+.google_signup{
+  display: flex;
+  color: #fff;
+  gap: 0.2rem;
+  border: 1px solid #B8B8B8;
+  padding: 0.5rem;
+  width: 20rem;
+  justify-content: center;
+}
+.google_signup img{
+  width: 24px;
+  height: 24px;
+}
+.google_signup p{
+  padding-top: 0.3rem;
+  color: #B8B8B8;
+}
+
+
+
+.signup input {
+  height: 2.5rem;
+  width: 20rem;
+  background-color: transparent;
+  /* border: 1px solid #f13223; */
+  border:1px solid #1b0402;
+  border: 1px solid #B8B8B8;
+  /* border-radius: 8px; */
+  padding: 12px 25px;
+  /* color: #f13223; */
+  color: #1b0402;
+  
+}
+
+.signup input::placeholder {
+  /* color: #f13223; */
+  color: #1b0402;
+
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+input.inscrire {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #FFF ;
+  background: transparent;
+  background-color: #1b0402;
+  border: none;
+  cursor: pointer;
+ padding-top: 0.6rem;
+ padding-bottom: 1rem;
+  border:1px solid #1b0402;
+  /* border-radius: 8px; */
 }
