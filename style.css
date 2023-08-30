@@ -388,6 +388,15 @@ form.signup h2{
   text-decoration: none;
 }
 
+.google_signup_conditions p{
+  display: flex;
+  color: #B8B8B8;
+  padding: 0.1rem;
+  width: 22rem;
+  justify-content: center;
+  font-size: 0.6rem;
+}
+
 
 
 .signup input {
