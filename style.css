@@ -4,6 +4,8 @@
   padding: 0;
 }
 
+
+
 body {
   background-color: #1b0402;
   font-family: Arial, Helvetica, sans-serif;
@@ -381,6 +383,11 @@ form.signup h2{
   color: #B8B8B8;
 }
 
+.google_signup a{
+  color: #B8B8B8;
+  text-decoration: none;
+}
+
 
 
 .signup input {
@@ -406,6 +413,20 @@ form.signup h2{
 }
 
 input.inscrire {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: #FFF ;
+  background: transparent;
+  background-color: #1b0402;
+  border: none;
+  cursor: pointer;
+ padding-top: 0.6rem;
+ padding-bottom: 1rem;
+  border:1px solid #1b0402;
+  /* border-radius: 8px; */
+}
+
+input.connexion {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   color: #FFF ;
